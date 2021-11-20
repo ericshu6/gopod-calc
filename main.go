@@ -16,7 +16,10 @@ limitations under the License.
 package main
 
 import "github.com/gitpod/mycli/cmd"
+import "fmt"
 
 func main() {
+	fmt.Println("I'm at the library, and soon, i'm going to Go check out my movie!");
+	fmt.Scanln("What movie did you get?")
 	cmd.Execute()
 }

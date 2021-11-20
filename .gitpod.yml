@@ -2,6 +2,7 @@
 tasks:
   - init: |
       go get github.com/spf13/cobra/cobra
+      go get firebase.google.com/go
       go build
     command: |
       ./mycli --help
